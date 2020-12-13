@@ -7,7 +7,7 @@ import type {Counter as BackendCounter} from '../../../backend/src/components/co
 
 export const getCounter = async () => {
 //  const client = new ComponentHTTPClient('https://3001-' + os.hostname().substring(5));
-  const client = new ComponentHTTPClient('https://3001-a1e67120-1496-4cdc-840e-a8cb1531b153.ws-us03.gitpod.io/');
+  const client = new ComponentHTTPClient('https://3001-b91f93fa-5b6f-4e43-a2d7-c23462205009.ws-us03.gitpod.io/');
 
   const BackendCounterProxy = (await client.getComponent()) as typeof BackendCounter;
 
